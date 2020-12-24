@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eux
+set -eu
 [ "${BASH_VERSINFO[0]}" -ge 3 ] && set -o pipefail
 
 get_platform () {
